@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<restaurants>
+ <restaurant id="1" name="Raku Izakaya" address="209 Main St, Fort Lee, NJ 07024" lat="40.851357" lng="-73.970609" type="Japanese"/>
+ <restaurant id="2" name="Cast Iron Pot" address="356 Bergen Blvd, Fairview, NJ 07022" lat="40.821384" lng="-73.998992" type="Korean"/>
+ <restaurant id="3" name="Green Papaya" address="110 Kinderkamack Rd, River Edge, NJ 07661" lat="40.911409" lng="-74.035668" type="Thai"/>
+</restaurants>

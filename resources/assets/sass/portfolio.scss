@@ -1,0 +1,60 @@
+//Portfolio Gallery
+
+.cell img {
+  display: block;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.cell-title {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+  padding: 5px;
+}
+.cell-desc {
+  color: black;
+  font-family: Helvetica;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 24px;
+  font-style: italic;
+  &:hover {
+    cursor: pointer;
+  }
+}
+.responsive-img {
+  max-width: 100%;
+  height: auto;
+
+}
+.grid {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  flex-direction: row !important;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+@media screen and (min-width: 600px) {
+  .grid {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    flex-direction: row !important;
+      margin-top: 50px;
+  }
+  .cell {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .cell {
+    width: calc(100% / 3);
+  }
+}

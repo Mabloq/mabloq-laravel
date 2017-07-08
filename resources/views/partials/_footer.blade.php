@@ -1,0 +1,1 @@
+<p class="text-center">Copyright Mabloq - All Rights Reserved</p>
